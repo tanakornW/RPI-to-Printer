@@ -8,8 +8,7 @@
   2. update ไฟล์บน pi โดยพิมพ์คำสั่งดังนี้
     > $ sudo apt-get update   [ ถ้า update ไม่สำเร็จหรือเกิด Error ให้ใช้คำสั่ง  ($ sudo apt-get update --fix-missing) ]
 
-  3. copy โฟลเดอร์ GUI_APP จาก https://github.com/tanakornW/RPI-to-Printer/tree/master/pickpackAPP 
-    ไปไว้ที่หน้าจอของ raspberry pi 
+  3. copy โฟลเดอร์ GUI_APP จากใน pickpackAPP ไปไว้ที่หน้าจอของ raspberry pi 
   4. เข้าไปใน โฟลเดอร์ GUI_APP จากนั้นคลิกขวาที่ app_ppb.py แล้ว open with IDLE 3
   5. กด RUN แล้ว Run Module หรือ กด F5
   6. การใช้งานโปรแกรม
