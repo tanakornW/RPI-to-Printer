@@ -1,4 +1,4 @@
-# RPI-to-Printer
+# RPI-Config
 
 - Download Ubuntu MATE (version 16.04.2) เพื่อติดตั้งไว้บน raspberry pi 3
 https://ubuntu-mate.org/download/
