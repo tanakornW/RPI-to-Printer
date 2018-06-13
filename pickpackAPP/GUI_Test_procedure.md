@@ -6,13 +6,29 @@
 - วิธีการทดสอบ GUI ของ Pickpack bot 
   1. Download Ubuntu MATE (version 16.04.2) เพื่อติดตั้งไว้บน raspberry pi 3 https://ubuntu-mate.org/download/
   2. update ไฟล์บน pi โดยพิมพ์คำสั่งดังนี้
-    > $ sudo apt-get update    
-   ถ้า update ไม่สำเร็จหรือเกิด Error ให้ใช้คำสั่ง  
+    > $ sudo apt-get update   
+    
+   ถ้า update ไม่สำเร็จหรือเกิด Error ให้ใช้คำสั่ง 
+   
    >$ sudo apt-get update --fix-missing
 
   3. copy โฟลเดอร์ GUI_APP จากใน pickpackAPP ไปไว้ที่หน้าจอของ raspberry pi 
-  4. คลิกขวาที่หน้าจอ แล้ว คลิก <B>Create Launcher
-  5. กด RUN แล้ว Run Module หรือ กด F5
+  4. คลิกขวาที่หน้าจอ แล้ว คลิก <B>Create Launcher แล้วตั้งค่าตามภาพด้านล่าง ตรง Command ให้ Browse ไฟล์ชื่อ launcher.sh ใน โฟลเดอร์ GUI_APP แล้วกด OK
+        
+        ![image](https://github.com/tanakornW/imagePPB/blob/master/image%20ppb/01.png)
+        
+        จะได้ icon app มา สามารถคลิกเปิดการทำงานได้
+        
+        ![image](https://github.com/tanakornW/imagePPB/blob/master/image%20ppb/02.png)
+        
+  5. ให้เข้าไปที่ System - Preferences - Personal - Startup Application แล้วกด add 
+  
+        ![image](https://github.com/tanakornW/imagePPB/blob/master/image%20ppb/03.png)
+        
+        แล้วตั้งค่าตามภาพด้านล่าง ตรง Command ให้ Browse ไฟล์ชื่อ launcher.sh ใน โฟลเดอร์ GUI_APP แล้วกด add
+        
+        ![image](https://github.com/tanakornW/imagePPB/blob/master/image%20ppb/04.png)
+  
   6. การใช้งานโปรแกรม
     - หน้า Work space ระบบจะบอกว่าผู้ใช้ไม่ได้เลือกช่องทางการรับข้อมูล 
     
