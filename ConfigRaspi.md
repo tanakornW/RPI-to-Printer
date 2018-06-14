@@ -52,10 +52,30 @@ https://ubuntu-mate.org/download/
     หรือ
     `$ sudo reboot`
     
-- บนเครื่องที่ติดตั้งระบบปฏิบัติการ เรียกโปรแกรมบราวเซอร์ แล้วป้อน IP Address ของ RaspberryPi และ Port ของเครื่องพิมพ์ CUPS ในตัวอย่างนี้คือ `http://192.168.1.4:631`
+- ให้ Download ไฟล์ cupsdriver-1.2.56.tgz
+    `https://na7.salesforce.com/sfc/p/#00000000SK3U/a/A0000000HbxO/katIjx1MXpgfJXlRnfiDHMXoyM9FaIshofWuAfKK63w`
+![](https://www.picz.in.th/images/2018/06/14/4gI31t.png)
+
+- เมื่อได้ไฟล์มาแล้วให้ทำการ Extract ไฟล์ออกมา (`cd` ไปที่pathไฟล์นั้นอยู่ และตามด้วย `cd cupsdriver-1.2-56`) จากนั้นพิมพ์คำสั่ง `sudo ./build.sh`
+
+- บนเครื่องที่ติดตั้งระบบปฏิบัติการ ให้เรียกโปรแกรมบราวเซอร์ แล้วป้อน IP Address ของ RaspberryPi และ Port ของเครื่องพิมพ์ CUPS ในตัวอย่างนี้คือ `http://192.168.1.4:631` จะแสดงดังรูป
+![](https://www.picz.in.th/images/2018/06/14/4i4zXa.png)
+
+- เปิดเครื่องพิมพ์ที่เสียบสาย USB เข้ากับ Raspberry Pi แล้วคลิกแถบคำสั่ง Administration (1) และเพิ่มเครื่องพิมพ์ ให้ติ๊กเครื่องหมายถูกบน Share printers connected to this system (2) แล้วคลิกปุ่ม Add Printer (3) จะปรากฏดังรูปข้างล่างนี้
+![](https://www.picz.in.th/images/2018/06/14/4ifnbV.png)
+
+- โปรแกรมเตือนว่าให้เข้าเข้าโหมด Admin รอสักครู่ หน้าเวบเพจจะเปลี่ยนไปยังหน้าล็อคอิน หากไม่เปลี่ยนคลิกลิงค์ (4) เพื่อไปยังหน้าล็อคอิน จะปรากฏดังรูปข้างล่างนี้
+![](https://www.picz.in.th/images/2018/06/15/4itJyq.png)
+
+- คลิกลิงค์ Advanced (5) และคลิ๊ก proceed to 192.168.1.4(unsafe) เพื่อไปยังหน้าล็อคอิน จะปรากฏดังรูปข้างล่างนี้
+![](https://www.picz.in.th/images/2018/06/15/4itMUu.png)
 
 
 
+
+
+![](https://www.picz.in.th/images/2018/06/14/4ifnbV.png)
+![](https://www.picz.in.th/images/2018/06/14/4ifnbV.png)
 
 
 
