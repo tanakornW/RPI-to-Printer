@@ -4,7 +4,7 @@
 https://ubuntu-mate.org/download/
 
 - update ไฟล์บน pi โดยพิมพ์คำสั่งดังนี้
-    `$ sudo apt-get update`   [ ถ้า update ไม่สำเร็จหรือเกิด Error ให้ใช้คำสั่ง  ($ sudo apt-get update --fix-missing) ]
+    `$ sudo apt-get update`   [ ถ้า update ไม่สำเร็จหรือเกิด Error ให้ใช้คำสั่ง  (`$ sudo apt-get update --fix-missing`) ]
 
 - ติดตั้ง library barcode ให้กับ pi 3 โดยพิมพ์คำสั่งดังนี้
     `$ pip3 install python-barcode`
