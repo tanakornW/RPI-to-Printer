@@ -14,15 +14,24 @@ https://ubuntu-mate.org/download/
 
 - ติดตั้ง โปรแกรม CUPS โดยพิมพ์คำสั่งดังนี้
     > `$ sudo apt-get install cups`
+    
 - และติดตั้ง driver ที่โปรแกรม CUPS ต้องการดังนี้
-    > `$ sudo apt-get install autoconf` 
-    > `$ sudo apt-get install automake`
-    > `$ sudo apt-get install gcc`
-    > `$ sudo apt-get install ghostscript`
-    > `$ sudo apt-get install glibc-devel`
-    > `$ sudo apt-get install netpbm`
-    > `$ sudo apt-get install netpbm-progs`
-    > `$ sudo apt-get install poppler-utils`
+    
+    `$ sudo apt-get install autoconf` 
+    
+    `$ sudo apt-get install automake`
+    
+    `$ sudo apt-get install gcc`
+    
+    `$ sudo apt-get install ghostscript`
+    
+    `$ sudo apt-get install glibc-devel`
+    
+    `$ sudo apt-get install netpbm`
+    
+    `$ sudo apt-get install netpbm-progs`
+    
+    `$ sudo apt-get install poppler-utils`
 
 - ตามที่โปรแกรมกำหนดมาให้ User group ที่สามารถเข้าถึงโปรแกรม CUPS คือ lpadmin แต่ในระบบปฏิบัติการ Ubuntu ที่ติดตั้งบน Raspberry Pi มีชื่อยูสเซอร์คือ
 (ตามที่ตั้งไว้ตอน บูทเครื่อง คือ .. "srichand1") เพื่อให้ยูสเซอร์ srichand1 มีสิทธิการใช้โปรแกรม โดยพิมพ์คำสั่งดังนี้
