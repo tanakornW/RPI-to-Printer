@@ -66,7 +66,7 @@ https://ubuntu-mate.org/download/
 ## 6
 - บนเครื่องที่ติดตั้งระบบปฏิบัติการ ให้เรียกโปรแกรมบราวเซอร์ แล้วป้อน IP Address ของ RaspberryPi และ Port ของเครื่องพิมพ์ CUPS ในตัวอย่างนี้คือ `http://192.168.1.4:631` จะแสดงดังรูป
 
-![](https://www.picz.in.th/images/2018/06/14/4i4zXa.png)
+![](https://www.picz.in.th/images/2018/06/15/4iD931.png)
 
 - เปิดเครื่องพิมพ์ที่เสียบสาย USB เข้ากับ Raspberry Pi แล้วคลิกแถบคำสั่ง Administration (1) และเพิ่มเครื่องพิมพ์ ให้ติ๊กเครื่องหมายถูกบน Share printers connected to this system (2) แล้วคลิกปุ่ม Add Printer (3) จะปรากฏดังรูปข้างล่างนี้
 
