@@ -104,10 +104,19 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/06/15/4ilk0n.png)
 
+### > จากนี้ก็สามารถใช้งานเครื่องปริ้นเตอร์กับโปรแกรมต่างๆได้ เช่น Libreoffice เป็นต้น
 
 
+## 7 
+### Setting ให้ใช้เครื่องปริ้นที่เป้น Driver จาก CUPS เพื่อตั้งเป็น Default
 
+- ให้ไปที่แท็บ system เลือกแท็บ administration และเลือกแท็บ Printers (23) ดังรูปข้างล่าง
+![](https://www.picz.in.th/images/2018/06/15/4ilGCg.png)
 
+- เมื่อ หน้าต่างเมนู Printer ขึ้นมาให้เลือกเครื่องปริ้นที่ต้องการจะตั้งค่า Default (`Intermec_PC43t-203-FP`) ให้ทำการคลิกขวาเลือก Set As Default (24)
+![](https://www.picz.in.th/images/2018/06/15/4iowut.png)
 
+- จะหน้าต่างให้ยืนยัน โดย Default จะติ๊กเลือก Set as the system-wide default printer ให้อยู่แล้วก็สามารถกด OK (25) เพื่อยืนยันการตั้งค่าได้เลยดังรูปข้างล่าง
+![](https://www.picz.in.th/images/2018/06/15/4ioZwl.png)
 
 
