@@ -58,40 +58,51 @@ https://ubuntu-mate.org/download/
 ## 5 
 - ให้ Download ไฟล์ cupsdriver-1.2.56.tgz
     `https://na7.salesforce.com/sfc/p/#00000000SK3U/a/A0000000HbxO/katIjx1MXpgfJXlRnfiDHMXoyM9FaIshofWuAfKK63w`
+    
 ![](https://www.picz.in.th/images/2018/06/14/4gI31t.png)
 
 - เมื่อได้ไฟล์มาแล้วให้ทำการ Extract ไฟล์ออกมา (`cd` ไปที่pathไฟล์นั้นอยู่ และตามด้วย `cd cupsdriver-1.2-56`) จากนั้นพิมพ์คำสั่ง `sudo ./build.sh`
 
 ## 6
 - บนเครื่องที่ติดตั้งระบบปฏิบัติการ ให้เรียกโปรแกรมบราวเซอร์ แล้วป้อน IP Address ของ RaspberryPi และ Port ของเครื่องพิมพ์ CUPS ในตัวอย่างนี้คือ `http://192.168.1.4:631` จะแสดงดังรูป
+
 ![](https://www.picz.in.th/images/2018/06/14/4i4zXa.png)
 
 - เปิดเครื่องพิมพ์ที่เสียบสาย USB เข้ากับ Raspberry Pi แล้วคลิกแถบคำสั่ง Administration (1) และเพิ่มเครื่องพิมพ์ ให้ติ๊กเครื่องหมายถูกบน Share printers connected to this system (2) แล้วคลิกปุ่ม Add Printer (3) จะปรากฏดังรูปข้างล่างนี้
+
 ![](https://www.picz.in.th/images/2018/06/14/4ifnbV.png)
 
 - โปรแกรมเตือนว่าให้เข้าเข้าโหมด Admin รอสักครู่ หน้าเวบเพจจะเปลี่ยนไปยังหน้าล็อคอิน หากไม่เปลี่ยนคลิกลิงค์ (4) เพื่อไปยังหน้าล็อคอิน จะปรากฏดังรูปข้างล่างนี้
+
 ![](https://www.picz.in.th/images/2018/06/15/4itJyq.png)
 
 - คลิกลิงค์ Advanced (5) และคลิ๊ก proceed to 192.168.1.4(unsafe) (6) เพื่อไปยังหน้าล็อคอิน จะปรากฏดังรูปข้างล่างนี้
+
 ![](https://www.picz.in.th/images/2018/06/15/4itMUu.png)
 
 - ติ๊กเครื่องหมายถูกบน Share printers connected to this system (7) (หากไม่ปรากฏให้ login ให้คลิกปุ่ม Add Printer(8)) แล้วป้อน user(ชื่อเครื่อง)ในที่นี้จะใส่ชื่อ `"srichand1"` (8) และpassword(ล็อคอินเครื่อง)ในที่นี้จะใส่ `"012345"` (9) เสร็จแล้วคลิกปุ่ม signin จะปรากฏดังรูปข้างล่างนี้ (หากหน้าจอไม่เปลี่ยน ให้คลิกปุ่ม Add Printer(8) อีกครั้ง)
+
 ![](https://www.picz.in.th/images/2018/06/15/4iw1Fg.png)
 
 - ทีนี้จะเห็นว่าปรากฏชื่อเครื่องพิมพ์ `Intermec PC43t-203-FP` (11) ที่นำมาต่อกับพอร์ท USB ของ Raspberry Pi (หากไม่ได้ติดตั้ง cupsdriver-1.2.56.tgz [ในหัวข้อที่ 5] จะไม่พบ driver ของ Intermec) แล้วคลิกปุ่ม Continue (12) จะปรากฏดังรูปข้างล่างนี้
+
 ![](https://www.picz.in.th/images/2018/06/15/4iwVJk.png)
 
 - เราจะเห็นว่าโปรแกรมตั้งชื่อเครื่องพิมพ์มาให้ช่อง Name แสดงคำอธิบายในช่อง Description ซึ่งสามารถใส่ชื่อ Location ได้เป็นในที่้จะใส่ `"intermec_1"` (13)  แล้วแชร์เครื่องพิมพ์ โดยคลิกให้ปรากฏเครื่องหมายติ๊กถูกบนเช็คบอกซ์ Share This Printer (14)  แล้วคลิกปุ่ม Continue (15) จะปรากฏดังรูปข้างล่างนี้
+
 ![](https://www.picz.in.th/images/2018/06/15/4i1xLl.png)
 
 - ไดรฟ์เวอร์ของเครื่องพิมพ์ที่ปรากฏในช่องหน้าต่าง Model(16) ที่มีให้เลือกใช้งาน ซึ่ง CUPS ยังสนับสนุนเครื่องพิมพ์ยี่ห้ออื่นๆอีกด้วย อาทิ เช่น Epson, HP, Brother และอื่นๆ เป็นต้น เมื่อเลือกไดรฟ์เวอร์ของเครื่องพิมพ์ `Intermec PC43t(203dpi)` ในช่องหน้าต่าง Model (17)  แล้วคลิกบนปุ่ม Add Printer (18) จะปรากฏดังรูปข้างล่างนี้
+
 ![](https://www.picz.in.th/images/2018/06/15/4i1rx9.png)
 
 - กำหนดค่าเริ่มต้นและคุณสมบัติต่างๆ ในการพิมพ์ Mediasize เป็นกระดาษของหน้ากระดาษ ให้เลือกเป็น `2in x 4in` (19) เลือก Print Method เป็น `Ribbon(TTR)` (20) จากนั้นคลิกปุ่ม Set Default Options (21) จะปรากฏดังรูปข้างล่างนี้ 
-#![](https://www.picz.in.th/images/2018/06/15/4ij0O9.png)
+
+![](https://www.picz.in.th/images/2018/06/15/4ij0O9.png)
 
 - โปรแกรมรายงานว่าเครื่องพิมพ์ Intermec PC43t(203dpi) ได้ถูกติดตั้งและตั้งค่าเริ่มต้นสำเร็จเรียบร้อยแล้ว จะปรากฏดังรูปด้านล่าง และนำเราเข้าสู่แถบ Printers (22) ดังรูปด้านล่างถัดลงไป
-#![](https://www.picz.in.th/images/2018/06/15/4ilk0n.png)
+
+![](https://www.picz.in.th/images/2018/06/15/4ilk0n.png)
 
 
 
