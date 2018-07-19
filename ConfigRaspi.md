@@ -123,4 +123,7 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/06/15/4ioZwl.png)
 
+##8
+- และติดตั้ง library Boto3 บน PI เพื่อที่จะทำกาาติดต่อกับ AWS(Amazon Cloud)   
+    `$ pip3 install boto3` 
 
