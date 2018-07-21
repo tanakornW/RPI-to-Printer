@@ -13,6 +13,9 @@ https://ubuntu-mate.org/download/
 - ติดตั้ง library docx ให้กับ pi 3 โดยพิมพ์คำสั่งดังนี้
     `$ sudo pip3 install --pre python-docx`
     
+- ติดตั้ง library Boto3 บน PI เพื่อที่จะทำการติดต่อกับ AWS(Amazon Cloud)   
+    `$ pip3 install boto3` 
+    
 ## 3
 - ติดตั้ง โปรแกรม CUPS โดยพิมพ์คำสั่งดังนี้
     `$ sudo apt-get install cups`
@@ -123,7 +126,33 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/06/15/4ioZwl.png)
 
-##8
-- และติดตั้ง library Boto3 บน PI เพื่อที่จะทำกาาติดต่อกับ AWS(Amazon Cloud)   
-    `$ pip3 install boto3` 
 
+## 8
+### วิธีติดตั้งไดรฟเวอร์จอภาพ Touch 3.5 นิ้ว บน Ubuntu Mate
+
+บนระบบปฏิบัติการ Ubuntu Mate เพื่อที่จะใช้ไปยังจอภาพ Touch Screen 3.5 นิ้ว ทำตามขั้นตอนดังต่อไปนี้
+
+- เปิด Terminal แล้วดาวน์โหลด Git Core (ต้องเชื่อมต่ออินเตอร์เนตแล้ว)    
+    `$ sudo apt-get install git-core`
+    
+- ดาวน์โหลด Driver (ต้องเชื่อมต่ออินเตอร์เนตแล้ว)    
+    `$ git clone https://github.com/goodtft/LCD-show.git`
+
+- เปลี่ยนโหมด Executable 755 ให้กับโฟลเดอร์    
+    `$ sudo chmod -R 755 LCD-show`
+
+- เปลี่ยนโฟลเดอร์ที่ต้องการเรียกใช้งาน    
+    `$ cd LCD-show/`
+
+- รันสคริปท์  เพื่อใช้งานอุปกรณ์แสดงภาพ Touch Screen 3.5 นิ้ว  
+    `$ sudo ./LCD35-show`
+
+### ระบบจะทำการ Reboot เครื่อง 1 ครั้ง จากนั้นจะไปเปิดใช้งานและจะแสดงผลที่หน้าจอภาพ Touch Screen 3.5 นิ้ว 
+
+และหากต้องการให้การแสดงผลกลับมาที่จอคอมพิวเตอร์ หรือจออื่นๆที่เชื่อมต่อกับ PI ผ่าน HDMI
+- ให้เปิด Terminal เปลี่ยนโฟลเดอร์ที่ต้องการเรียกใช้งาน    
+    `$ cd LCD-show/`
+
+- รันสคริปท์ เพื่อใช้งานอุปกรณ์แสดงภาพผ่านทาง hdmi 
+    `$ sudo ./LCD-hdmi`
+    
