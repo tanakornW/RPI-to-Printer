@@ -16,6 +16,9 @@ https://ubuntu-mate.org/download/
 - ติดตั้ง library Boto3 บน PI เพื่อที่จะทำการติดต่อกับ AWS(Amazon Cloud)   
     `$ pip3 install boto3` 
     
+- หากต้องการติดตั้ง chromium browser เพิ่มเติมให้พิมพ์คำสั่งดังนี้   
+    `$ sudo apt install -y chromium-browser`     
+
 ## 3
 - ติดตั้ง โปรแกรม CUPS โดยพิมพ์คำสั่งดังนี้
     `$ sudo apt-get install cups`
@@ -155,4 +158,22 @@ https://ubuntu-mate.org/download/
 
 - รันสคริปท์ เพื่อใช้งานอุปกรณ์แสดงภาพผ่านทาง hdmi 
     `$ sudo ./LCD-hdmi`
-    
+
+## 9
+### วิธีตั้งค่าเครื่องปริ้น Intermec PC43t ให้ปริ้นบนกระดาษ 4นิ้ว * 2นิ้ว ได้ขนาดพอดี
+- ให้ตั้งค่าดังนี้
+
+![](https://www.picz.in.th/images/2018/07/31/BBX78b.png)
+
+![](https://www.picz.in.th/images/2018/07/31/BBa0Jv.png)
+
+![](https://www.picz.in.th/images/2018/07/31/BBaXnS.png)
+
+- เลือก Printer Options จากนั้นให้เลือก Media size เป็น (4.00 * 2.00) นิ้ว
+
+![](https://www.picz.in.th/images/2018/07/31/BBapWn.png)
+
+- หากปรับความเข้มของอักษรให้เพิ่มขึ้นให้เลือกตามรูปภาพดังนี้
+
+![](https://www.picz.in.th/images/2018/07/31/BBaJe2.png)
+
