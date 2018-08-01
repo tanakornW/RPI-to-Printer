@@ -182,15 +182,18 @@ https://ubuntu-mate.org/download/
 
 ## 10
 ### วิธีตั้งค่า icon Launcher Application บน Desktop
--ให้ตั้งค่าดังนี้
+- ให้ copy โฟลเดอร์ Pickpack-Bot ไปไว้บน pi ที่ /home/srichand/
+- ให้คลิกขวาที่หน้าจอแล้วเลือกเมนูดังภาพด้านล่าง
 
 ![](https://www.picz.in.th/images/2018/08/01/BkNp3z.png)
 
-- เลือกภาพ icon ที่ต้องการ (จากภาพในระบบมี icon ให้อยู่แล้ว)
+- เลือกภาพ icon ที่ต้องการ (จากภาพในระบบมี icon ให้อยู่แล้ว) หรือเลือกโลโก้ที่เราทำไว้ให้ ที่ /home/srichand/Pickpack-Bot/Application-and-Launcher/
+- ตั้งชื่อแอปพลิเคชัน ที่จะแสดงบนจอ
 
 ![](https://www.picz.in.th/images/2018/08/01/BkB3mg.png)
 
-- เลือก launcher ที่เป็น .bat (จากภาพเลือก launcher_pickpack_GUI.bat)
+- กด ฺBrowse 
+- เลือก launcher ที่เป็น .bat ชื่อ LauncherPPBApp.bat
 
 ![](https://www.picz.in.th/images/2018/08/01/BkBRZb.png)
 
@@ -198,7 +201,7 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/08/01/BkBJTg.png)
 
-- จากภาพตัวอย่างจะได้ icon มาชื่อ pickpackapp เป็น icon ส่วนของ GUI (และ icon ชื่อ PrintingOrder เป็น icon ส่วนของการปริ้น)
+- จากภาพตัวอย่างจะได้ icon มา เป็น icon ส่วนของ GUI (และ icon ชื่อ PrintingOrder เป็น icon ส่วนของการปริ้น)
 
 ![](https://www.picz.in.th/images/2018/08/01/Bkfnwf.png)
 
