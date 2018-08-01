@@ -167,6 +167,8 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/07/31/BBa0Jv.png)
 
+- เลือก properties
+
 ![](https://www.picz.in.th/images/2018/07/31/BBaXnS.png)
 
 - เลือก Printer Options จากนั้นให้เลือก Media size เป็น (4.00 * 2.00) นิ้ว
