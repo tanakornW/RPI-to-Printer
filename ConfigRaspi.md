@@ -224,3 +224,5 @@ https://ubuntu-mate.org/download/
 - เมื่อกดยืนยันแล้ว จากภาพจะได้ไฟล์ startup ชื่อ App_PickpackBot ที่เป็นส่วนของ GUI (และชื่อ App_PrintingOrder จะเป็นส่วนของ Printing) 
 
 ![](https://www.picz.in.th/images/2018/08/01/BkhmnD.png)
+
+testtttttttttttttttttt
