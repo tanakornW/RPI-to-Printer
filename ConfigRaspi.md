@@ -198,7 +198,24 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/08/01/BkBJTg.png)
 
-- จากภาพตัวอย่างจะได้ icon มาชื่อ pickpackapp เป็น icon ส่วนของ GUI (และ icon ชื่อ PrintingOrder เ็น icon ส่วนของการปริ้น)
+- จากภาพตัวอย่างจะได้ icon มาชื่อ pickpackapp เป็น icon ส่วนของ GUI (และ icon ชื่อ PrintingOrder เป็น icon ส่วนของการปริ้น)
 
 ![](https://www.picz.in.th/images/2018/08/01/Bkfnwf.png)
 
+## 11
+### วิธีตั้งค่า Startup Application (Application GUI และ Printing จะทำงานทันที่เปิดเครื่อง)
+-ให้ตั้งค่าดังนี้
+
+![](https://www.picz.in.th/images/2018/08/01/BkfyDt.png)
+
+- กด Add เพื่อเพิ่มโปรแกรมที่ต้องการ startup
+
+![](https://www.picz.in.th/images/2018/08/01/BkfFJe.png)
+
+- สร้างโปรแกรมที่ต้องการ startup ภาพตัวอย่างสร้างชื่อว่า App_PickpackBot จากนั้นเลือกไฟล์ .bat
+
+![](https://www.picz.in.th/images/2018/08/01/BkhN1S.png)
+
+- เมื่อกดยืนยันแล้ว จากภาพจะได้ไฟล์ startup ชื่อ App_PickpackBot ที่เป็นส่วนของ GUI (และชื่อ App_PrintingOrder จะเป็นส่วนของ Printing) 
+
+![](https://www.picz.in.th/images/2018/08/01/BkhmnD.png)
