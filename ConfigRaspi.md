@@ -217,7 +217,7 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/08/01/BkfFJe.png)
 
-- สร้างโปรแกรมที่ต้องการ startup ภาพตัวอย่างสร้างชื่อว่า App_PickpackBot จากนั้นเลือกไฟล์ .bat
+- สร้างโปรแกรมที่ต้องการ startup ภาพตัวอย่างสร้างชื่อว่า App_PickpackBot จากนั้นเลือกไฟล์ launcher_Pickpack_GUI.bat จะเป็นส่วนของ GUI (และส่วนของ printing สร้างชื่อว่า App_PrintingOrder แล้วเลือกไฟล์ launcher_Order_printing.bat)
 
 ![](https://www.picz.in.th/images/2018/08/01/BkhN1S.png)
 
