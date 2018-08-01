@@ -2,6 +2,8 @@
 ## 1
 - Download Ubuntu MATE (version 16.04.2) เพื่อติดตั้งไว้บน raspberry pi 3
 https://ubuntu-mate.org/download/
+- ตั้งชื่อเครื่องเป็น srichand ถ้าไม่ตั้งตามนี้โปรแกรมจะเรียก PATH ไม่ถูกแล้วจะทำงานไม่ได้
+- ตั้งค่าpassword แล้วตั้ง Login ให้เป็น Auto ถ้าไม่ Auto เมื่อเปิดเครื่องผู้ใช้ต้องใส่password ทุกครั้ง
 
 ## 2
 - update ไฟล์บน pi โดยพิมพ์คำสั่งดังนี้
@@ -11,11 +13,14 @@ https://ubuntu-mate.org/download/
     `$ pip3 install python-barcode`
 
 - ติดตั้ง library docx ให้กับ pi 3 โดยพิมพ์คำสั่งดังนี้
-    `$ pip3 install --pre python-docx`
+    `$ sudo pip3 install --pre python-docx`
     
 - ติดตั้ง library Boto3 บน PI เพื่อที่จะทำการติดต่อกับ AWS(Amazon Cloud)   
     `$ pip3 install boto3` 
     
+- หากต้องการติดตั้ง chromium browser เพิ่มเติมให้พิมพ์คำสั่งดังนี้   
+    `$ sudo apt install -y chromium-browser`     
+
 ## 3
 - ติดตั้ง โปรแกรม CUPS โดยพิมพ์คำสั่งดังนี้
     `$ sudo apt-get install cups`
@@ -155,4 +160,67 @@ https://ubuntu-mate.org/download/
 
 - รันสคริปท์ เพื่อใช้งานอุปกรณ์แสดงภาพผ่านทาง hdmi 
     `$ sudo ./LCD-hdmi`
-    
+
+## 9
+### วิธีตั้งค่าเครื่องปริ้น Intermec PC43t ให้ปริ้นบนกระดาษ 4นิ้ว * 2นิ้ว ได้ขนาดพอดี
+- ให้ตั้งค่าดังนี้
+
+![](https://www.picz.in.th/images/2018/07/31/BBX78b.png)
+
+![](https://www.picz.in.th/images/2018/07/31/BBa0Jv.png)
+
+- เลือก properties
+
+![](https://www.picz.in.th/images/2018/07/31/BBaXnS.png)
+
+- เลือก Printer Options จากนั้นให้เลือก Media size เป็น (4.00 * 2.00) นิ้ว
+
+![](https://www.picz.in.th/images/2018/07/31/BBapWn.png)
+
+- หากปรับความเข้มของอักษรให้เพิ่มขึ้นให้เลือกตามรูปภาพดังนี้
+
+![](https://www.picz.in.th/images/2018/07/31/BBaJe2.png)
+
+
+## 10
+### วิธีตั้งค่า icon Launcher Application บน Desktop
+- ให้ copy โฟลเดอร์ Pickpack-Bot ไปไว้บน pi ที่ /home/srichand/
+- ให้คลิกขวาที่หน้าจอแล้วเลือกเมนูดังภาพด้านล่าง
+
+![](https://www.picz.in.th/images/2018/08/01/BkNp3z.png)
+
+- เลือกภาพ icon ที่ต้องการ (จากภาพในระบบมี icon ให้อยู่แล้ว) หรือเลือกโลโก้ที่เราทำไว้ให้ ที่ /home/srichand/Pickpack-Bot/Application-and-Launcher/
+- ตั้งชื่อแอปพลิเคชัน ที่จะแสดงบนจอ
+
+![](https://www.picz.in.th/images/2018/08/01/BkB3mg.png)
+
+- กด ฺBrowse 
+- เลือก launcher ที่เป็น .bat ชื่อ LauncherPPBApp.bat
+
+![](https://www.picz.in.th/images/2018/08/01/BkBRZb.png)
+
+- เมื่อเลือกแล้วกด OK
+
+![](https://www.picz.in.th/images/2018/08/01/BkBJTg.png)
+
+- จากภาพตัวอย่างจะได้ icon มา เป็น icon ส่วนของ GUI
+
+![](https://www.picz.in.th/images/2018/08/01/B37FYJ.png)
+
+## 11
+### วิธีตั้งค่า Startup Application (Application GUI และ Printing จะทำงานทันที่เปิดเครื่อง)
+-ให้ตั้งค่าดังนี้
+
+![](https://www.picz.in.th/images/2018/08/01/BkfyDt.png)
+
+- กด Add เพื่อเพิ่มโปรแกรมที่ต้องการ startup
+
+![](https://www.picz.in.th/images/2018/08/01/BkfFJe.png)
+
+- สร้างโปรแกรมที่ต้องการ startup ภาพตัวอย่างสร้างชื่อว่า App_PickpackBot จากนั้นเลือกไฟล์ launcher_Pickpack_GUI.bat จะเป็นส่วนของ GUI (และส่วนของ printing สร้างชื่อว่า App_PrintingOrder แล้วเลือกไฟล์ launcher_Order_printing.bat)
+
+![](https://www.picz.in.th/images/2018/08/01/BkhN1S.png)
+
+- เมื่อกดยืนยันแล้ว จากภาพจะได้ไฟล์ startup ชื่อ App_PickpackBot ที่เป็นส่วนของ GUI (และชื่อ App_PrintingOrder จะเป็นส่วนของ Printing) 
+
+![](https://www.picz.in.th/images/2018/08/01/BkhmnD.png)
