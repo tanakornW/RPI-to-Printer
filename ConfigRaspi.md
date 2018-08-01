@@ -13,7 +13,7 @@ https://ubuntu-mate.org/download/
     `$ pip3 install python-barcode`
 
 - ติดตั้ง library docx ให้กับ pi 3 โดยพิมพ์คำสั่งดังนี้
-    `$ sudo pip3 install --pre python-docx`
+    `$ pip3 install --pre python-docx`
     
 - ติดตั้ง library Boto3 บน PI เพื่อที่จะทำการติดต่อกับ AWS(Amazon Cloud)   
     `$ pip3 install boto3` 
