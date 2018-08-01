@@ -2,6 +2,8 @@
 ## 1
 - Download Ubuntu MATE (version 16.04.2) เพื่อติดตั้งไว้บน raspberry pi 3
 https://ubuntu-mate.org/download/
+- ตั้งชื่อเครื่องเป็น srichand ถ้าไม่ตั้งตามนี้โปรแกรมจะเรียก PATH ไม่ถูกแล้วจะทำงานไม่ได้
+- ตั้งค่าpassword แล้วตั้ง Login ให้เป็น Auto ถ้าไม่ Auto เมื่อเปิดเครื่องผู้ใช้ต้องใส่password ทุกครั้ง
 
 ## 2
 - update ไฟล์บน pi โดยพิมพ์คำสั่งดังนี้
