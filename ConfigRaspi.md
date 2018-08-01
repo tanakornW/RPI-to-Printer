@@ -206,6 +206,7 @@ https://ubuntu-mate.org/download/
 ### วิธีตั้งค่า Startup Application (Application GUI และ Printing จะทำงานทันที่เปิดเครื่อง)
 -ให้ตั้งค่าดังนี้
 
+![](https://www.picz.in.th/images/2018/08/01/Bkfnwf.png)
 ![](https://www.picz.in.th/images/2018/08/01/BkfyDt.png)
 
 - กด Add เพื่อเพิ่มโปรแกรมที่ต้องการ startup
