@@ -197,7 +197,7 @@ https://ubuntu-mate.org/download/
 - กด ฺBrowse 
 - เลือก launcher ที่เป็น .bat ชื่อ LauncherPPBApp.bat ที่ /home/srichand/Pickpack-Bot/Application-and-Launcher/
 
-![](https://www.picz.in.th/images/2018/08/01/BkBRZb.png)
+![](https://www.picz.in.th/images/2018/08/02/B9hhEe.png)
 
 - เมื่อเลือกแล้วกด OK
 
@@ -211,16 +211,19 @@ https://ubuntu-mate.org/download/
 ### วิธีตั้งค่า Startup Application (Application GUI และ Printing จะทำงานทันที่เปิดเครื่อง)
 -ให้ตั้งค่าดังนี้ เข้าไปตามเมนูด้านล่าง
 
-![](https://www.picz.in.th/images/2018/08/01/BkfyDt.png)
+![](https://www.picz.in.th/images/2018/08/02/B9fFha.png)
 
 - กด Add เพื่อเพิ่มโปรแกรมที่ต้องการ startup เมื่อเปิดเครื่อง
 
 ![](https://www.picz.in.th/images/2018/08/01/BkfFJe.png)
 
 - สร้างโปรแกรมที่ต้องการ startup ภาพตัวอย่างสร้างชื่อว่า App_PickpackBot จากนั้นกด ฺBrowse เลือกไฟล์ launcherPPBApp.bat จะเป็นส่วนของ GUI ที่ /home/srichand/Pickpack-Bot/Application-and-Launcher/
+
+![](https://www.picz.in.th/images/2018/08/02/B9kdbn.png)
+
 - และส่วนของ printing สร้างชื่อว่า App_PrintingOrder แล้วกด ฺBrowseเลือกไฟล์ launcherPrinting.bat ที่ /home/srichand/Pickpack-Bot/Application-and-Launcher/
 
-![](https://www.picz.in.th/images/2018/08/01/BkhN1S.png)
+![](https://www.picz.in.th/images/2018/08/02/B9k39b.png)
 
 - เมื่อกดยืนยันแล้ว จากภาพจะได้ไฟล์ startup ชื่อ App_PickpackBot ที่เป็นส่วนของ GUI และชื่อ App_PrintingOrder จะเป็นส่วนของ Printing 
 
