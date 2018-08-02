@@ -4,16 +4,19 @@
 https://ubuntu-mate.org/download/
 - ตั้งชื่อเครื่องเป็น srichand ถ้าไม่ตั้งตามนี้โปรแกรมจะเรียก PATH ไม่ถูกแล้วจะทำงานไม่ได้
 - ตั้งค่าpassword แล้วตั้ง Login ให้เป็น Auto ถ้าไม่ Auto เมื่อเปิดเครื่องผู้ใช้ต้องใส่password ทุกครั้ง
+- นำ Folder ของโปรแกรม (ชื่อ Pickpack-Bot) นำไปวางที่ path "srichand" ดังภาพ 
+
+![](https://www.picz.in.th/images/2018/08/02/B9mzXf.png)
 
 ## 2
 - update ไฟล์บน pi โดยพิมพ์คำสั่งดังนี้
-    `$ sudo apt-get update`   [ ถ้า update ไม่สำเร็จหรือเกิด Error ให้ใช้คำสั่ง  (`$ sudo apt-get update --fix-missing`) ]
+    `$ sudo apt-get update`     [ ถ้า update ไม่สำเร็จหรือเกิด Error ให้ใช้คำสั่ง  (`$ sudo apt-get update --fix-missing`) ]
 
 - ติดตั้ง library barcode ให้กับ pi 3 โดยพิมพ์คำสั่งดังนี้
     `$ pip3 install python-barcode`
 
 - ติดตั้ง library docx ให้กับ pi 3 โดยพิมพ์คำสั่งดังนี้
-    `$ sudo pip3 install --pre python-docx`
+    `$ sudo pip3 install --pre python-docx`     [ หาก error lxaml ให้ใช้คำสั่ง `$ sudo apt-get build-dep -y lxml` แล้วติดตั้ง python-docx ซ้ำอีกครั้ง]
     
 - ติดตั้ง library Boto3 บน PI เพื่อที่จะทำการติดต่อกับ AWS(Amazon Cloud)
     `$ pip3 install boto3` 
