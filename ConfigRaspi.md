@@ -195,7 +195,7 @@ https://ubuntu-mate.org/download/
 ![](https://www.picz.in.th/images/2018/08/01/BkB3mg.png)
 
 - กด ฺBrowse 
-- เลือก launcher ที่เป็น .bat ชื่อ LauncherPPBApp.bat
+- เลือก launcher ที่เป็น .bat ชื่อ LauncherPPBApp.bat ที่ /home/srichand/Pickpack-Bot/Application-and-Launcher/
 
 ![](https://www.picz.in.th/images/2018/08/01/BkBRZb.png)
 
@@ -203,24 +203,26 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/08/01/BkBJTg.png)
 
-- จากภาพตัวอย่างจะได้ icon มา เป็น icon ส่วนของ GUI
+- จากภาพตัวอย่างจะได้ icon มา เป็น icon ส่วนของ GUI สามารถดับเบิลคลิกเปิดการทำงานของโปรแกรมได้ แต่ขั้นตอนนี้ยังไม่ได้เปิดโปรแกรมส่วน API แอปพลิเคชัน จะerror ให้ทำตามขั้นตอนที่ 11 ต่อไป
 
 ![](https://www.picz.in.th/images/2018/08/01/B37FYJ.png)
 
 ## 11
 ### วิธีตั้งค่า Startup Application (Application GUI และ Printing จะทำงานทันที่เปิดเครื่อง)
--ให้ตั้งค่าดังนี้
+-ให้ตั้งค่าดังนี้ เข้าไปตามเมนูด้านล่าง
 
 ![](https://www.picz.in.th/images/2018/08/01/BkfyDt.png)
 
-- กด Add เพื่อเพิ่มโปรแกรมที่ต้องการ startup
+- กด Add เพื่อเพิ่มโปรแกรมที่ต้องการ startup เมื่อเปิดเครื่อง
 
 ![](https://www.picz.in.th/images/2018/08/01/BkfFJe.png)
 
-- สร้างโปรแกรมที่ต้องการ startup ภาพตัวอย่างสร้างชื่อว่า App_PickpackBot จากนั้นเลือกไฟล์ launcher_Pickpack_GUI.bat จะเป็นส่วนของ GUI (และส่วนของ printing สร้างชื่อว่า App_PrintingOrder แล้วเลือกไฟล์ launcher_Order_printing.bat)
+- สร้างโปรแกรมที่ต้องการ startup ภาพตัวอย่างสร้างชื่อว่า App_PickpackBot จากนั้นกด ฺBrowse เลือกไฟล์ launcherPPBApp.bat จะเป็นส่วนของ GUI ที่ /home/srichand/Pickpack-Bot/Application-and-Launcher/
+- และส่วนของ printing สร้างชื่อว่า App_PrintingOrder แล้วกด ฺBrowseเลือกไฟล์ launcherPrinting.bat ที่ /home/srichand/Pickpack-Bot/Application-and-Launcher/
 
 ![](https://www.picz.in.th/images/2018/08/01/BkhN1S.png)
 
-- เมื่อกดยืนยันแล้ว จากภาพจะได้ไฟล์ startup ชื่อ App_PickpackBot ที่เป็นส่วนของ GUI (และชื่อ App_PrintingOrder จะเป็นส่วนของ Printing) 
+- เมื่อกดยืนยันแล้ว จากภาพจะได้ไฟล์ startup ชื่อ App_PickpackBot ที่เป็นส่วนของ GUI และชื่อ App_PrintingOrder จะเป็นส่วนของ Printing 
 
 ![](https://www.picz.in.th/images/2018/08/01/BkhmnD.png)
+- ให้ทำการปิด-เปิดเครื่องใหม่ ระบบจะทำงานโดยอัตโนมัติ
