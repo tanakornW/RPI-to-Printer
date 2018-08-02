@@ -15,10 +15,10 @@ https://ubuntu-mate.org/download/
 - ติดตั้ง library docx ให้กับ pi 3 โดยพิมพ์คำสั่งดังนี้
     `$ sudo pip3 install --pre python-docx`
     
-- ติดตั้ง library Boto3 บน PI เพื่อที่จะทำการติดต่อกับ AWS(Amazon Cloud)   
+- ติดตั้ง library Boto3 บน PI เพื่อที่จะทำการติดต่อกับ AWS(Amazon Cloud)
     `$ pip3 install boto3` 
     
-- หากต้องการติดตั้ง chromium browser เพิ่มเติมให้พิมพ์คำสั่งดังนี้   
+- หากต้องการติดตั้ง chromium browser เพิ่มเติมให้พิมพ์คำสั่งดังนี้
     `$ sudo apt install -y chromium-browser`     
 
 ## 3
