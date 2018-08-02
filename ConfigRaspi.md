@@ -229,3 +229,18 @@ https://ubuntu-mate.org/download/
 
 ![](https://www.picz.in.th/images/2018/08/01/BkhmnD.png)
 - ให้ทำการปิด-เปิดเครื่องใหม่ ระบบจะทำงานโดยอัตโนมัติ
+
+## 12
+### วิธีตั้งค่าเพื่อยกเลิก Lock screensaver แบบอัตโนมัติ
+-ให้ตั้งค่าดังนี้ เข้าไปตามเมนูด้านล่าง  Preferences -> Look and Feel -> Screensaver
+
+![](https://www.picz.in.th/images/2018/08/02/B9iGND.png)
+
+- เอาเครื่องหมายออก "Activate screensaver when computer is idle" และ "Lock screen when screensaver is active"
+- จากนั้นกด Power Management
+
+![](https://www.picz.in.th/images/2018/08/02/B9im0b.png)
+
+- หลังจากแสดงหน้าต่าง Power Management Preferences แล้วให้เลือกเป็น "Never" ทั้ง2 หัวข้อ Actions และ Display
+
+![](https://www.picz.in.th/images/2018/08/02/B9Ri2n.png)
